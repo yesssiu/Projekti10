@@ -44,8 +44,24 @@ body {
 /* MAIN */
 main {
    font-family: sans-serif;
-   background-color: rgb(224, 203, 203);
 
+}
+.teksti {
+    background-color: rgb(176, 161, 191);
+    margin: 1em;
+}
+.image-container {
+    background-color: rgb(128, 124, 156);
+    margin: 1em;
+    max-width: 400px;
+}
+.image-container2 {
+    background-color: rgb(103, 140, 122);
+    margin: 1em;
+    max-width: 400px;
+}
+.index-img {
+    max-width: 350px;
 }
 
 
