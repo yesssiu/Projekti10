@@ -4,7 +4,7 @@ header {
     background-color: #fff;
 }
 #headerimg {
-    xxx: ;
+    background-image: url();
 }
 
 
@@ -42,7 +42,7 @@ body {
 
 /* MAIN */
 main {
-   font-family: ;
+   font-family: sans-serif;
    background-color: rgb(224, 203, 203);
 
 }
