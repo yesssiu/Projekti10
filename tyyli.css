@@ -22,7 +22,10 @@ body {
 
 /* NAVIGAATIO */
 #navbar {
+    position: sticky;
     background-color: rgb(125, 100, 100);
+    overflow: hidden;
+    top: 0;
 }
 #navbar ul {
     background-color: rgb(125, 100, 100);
@@ -38,6 +41,8 @@ body {
     letter-spacing: .2em;
 }
 #navbar ul li a {
+    float: right;
+    text-align: center;
     display: block;
     border: 1px;
     padding: .5em;
