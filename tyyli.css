@@ -1,10 +1,14 @@
 
 /* HEADER */
 header {
-    background-color: #fff;
+    background-color: #f4EBE5;
+
 }
 #headerimg {
-    background-image: url();
+    background-color: #f4ebe5;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -22,8 +26,8 @@ body {
 }
 #navbar ul {
     background-color: rgb(125, 100, 100);
-    margin: 2em;
-    padding: 2em;
+    margin-top: -2em;
+    padding: 1.5em;
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
