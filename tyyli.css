@@ -1,8 +1,10 @@
 
 /* HEADER */
 header {
-    color: ;
-    background: url(xxxx) no-repeat;
+    background-color: #fff;
+}
+#headerimg {
+    xxx: ;
 }
 
 
@@ -15,14 +17,16 @@ nav
 
 /* BODY */
 body {
-    font-family: ;
+    font-family: sans-serif;
     background-color: #fff;
 }
 
 
 /* MAIN */
 main {
-    
+   font-family: ;
+   background-color: rgb(224, 203, 203);
+
 }
 
 
@@ -34,3 +38,8 @@ main {
 
 
 /* FONTIT */
+
+
+
+
+/* MEDIA */
