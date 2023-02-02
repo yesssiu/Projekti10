@@ -8,18 +8,36 @@ header {
 }
 
 
-/* NAVIGAATIO */
-nav
-
-
-
-
 
 /* BODY */
 body {
     font-family: sans-serif;
     background-color: #fff;
 }
+
+
+/* NAVIGAATIO */
+#navbar {
+    background-color: rgb(125, 100, 100);
+}
+#navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+#navbar ul li {
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+#navbar ul li a {
+    display: block;
+    border: 1px;
+    padding: .5em;
+}
+
 
 
 /* MAIN */
@@ -32,7 +50,27 @@ main {
 
 
 /* FOOTER */
-
+#navfooter {
+    background-color: rgb(125, 100, 100);
+    margin: 5em;
+}
+#navfooter ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+#navfooter ul li {
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+#navfooter ul li a {
+    display: block;
+    border: 1px;
+    padding: .5em;
+}
 
 
 
