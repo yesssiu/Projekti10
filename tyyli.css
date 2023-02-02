@@ -53,16 +53,37 @@ main {
 .teksti {
     background-color: rgb(176, 161, 191);
     margin-top: 1em;
-    padding: 6em;
+    padding-right: 12em;
+    padding-left: 12em;
+    padding-top: 7em;
+    padding-bottom: 7em;
     text-align: justify;
     line-height: 1.3em;
 }
+.teksti h2 {
+    font-size: 2em;
+}
+.teksti p {
+    font-size: 1.1em;
+}
 .image-container {
     background-color: rgb(128, 124, 156);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    max-width: 100%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.image-container > image-tile {
+    background-color: rgb(103, 140, 122);
     margin: 1em;
     max-width: 400px;
 }
-.image-container2 {
+.image-container > image-tile2 {
     background-color: rgb(103, 140, 122);
     margin: 1em;
     max-width: 400px;
