@@ -23,12 +23,12 @@ body {
 /* NAVIGAATIO */
 #navbar {
     position: sticky;
-    background-color: rgb(125, 100, 100);
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
     top: 0;
 }
 #navbar ul {
-    background-color: rgb(125, 100, 100);
+    background-color: rgb(255, 255, 255);
     margin-top: -2em;
     padding: 1.5em;
     list-style-type: none;
@@ -40,12 +40,14 @@ body {
     text-transform: uppercase;
     letter-spacing: .2em;
 }
-#navbar ul li a {
-    float: right;
-    text-align: center;
+#navlinks {
     display: block;
     border: 1px;
     padding: .5em;
+}
+.navlink {
+    margin-right: 5em;
+    float: right;
 }
 
 
@@ -53,6 +55,7 @@ body {
 /* MAIN */
 main {
    font-family: sans-serif;
+   color:rgb(64, 59, 59);
 
 }
 .teksti {
@@ -72,7 +75,7 @@ main {
     font-size: 1.1em;
 }
 .image-container {
-    background-color: rgb(128, 124, 156);
+    background-color: rgb(221, 238, 237);
     margin-top: 1em;
     margin-bottom: 1em;
     max-width: 100%;
@@ -84,7 +87,7 @@ main {
     align-items: center;
 }
 .image-container > image-tile {
-    background-color: rgb(103, 140, 122);
+    background-color: rgb(221, 238, 237);
     margin: 1em;
     max-width: 400px;
 }
