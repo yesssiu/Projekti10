@@ -73,13 +73,13 @@ main {
     padding-top: 7em;
     padding-bottom: 7em;
     text-align: justify;
-    line-height: 1.3em;
 }
 .teksti h2 {
     font-size: 2em;
 }
 .teksti p {
     font-size: 1.1em;
+    line-height: 1.3em;
 }
 .image-container {
     background-color: rgb(221, 238, 237);
