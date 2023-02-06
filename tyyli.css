@@ -51,6 +51,15 @@ body {
     padding-top: .8em;
     padding-bottom: .5em;
 }
+.navlink a {
+    color: black;
+    text-decoration: none;
+}
+.navlink a:hover {
+    color:rgb(123, 33, 33);
+}
+
+
 #minilogo {
     width: 40px;
     display: flex;
@@ -73,13 +82,13 @@ main {
     padding-top: 7em;
     padding-bottom: 7em;
     text-align: justify;
-    line-height: 1.3em;
 }
 .teksti h2 {
     font-size: 2em;
 }
 .teksti p {
     font-size: 1.1em;
+    line-height: 1.3em;
 }
 .image-container {
     background-color: rgb(221, 238, 237);
