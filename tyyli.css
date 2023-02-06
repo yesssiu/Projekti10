@@ -58,10 +58,7 @@ body {
 .navlink a:hover {
     color:rgb(123, 33, 33);
 }
-.navlink a:active {
-    color:rgb(20, 99, 74);
-    text-decoration: underline;
-}
+
 
 #minilogo {
     width: 40px;
