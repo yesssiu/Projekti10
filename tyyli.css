@@ -43,11 +43,18 @@ body {
 #navlinks {
     display: block;
     border: 1px;
-    padding: .5em;
+    padding: 1em;
 }
 .navlink {
-    margin-right: 5em;
+    margin-right: 4em;
     float: right;
+    padding-top: .8em;
+    padding-bottom: .5em;
+}
+#minilogo {
+    width: 40px;
+    display: flex;
+    padding-right: 3em;
 }
 
 
