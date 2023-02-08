@@ -114,7 +114,7 @@ main {
 }
 
 .index-img {
-    max-width: 350px;
+    max-width: 400px;
 }
 
 .yhteystiedot {
@@ -159,6 +159,7 @@ main {
 }
 .infokuva {
     width: 500px;
+    box-shadow: 4px 4px 12px #626262;
 }
 
 
