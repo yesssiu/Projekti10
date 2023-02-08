@@ -130,24 +130,30 @@ main {
 
 
 /* FOOTER */
-.footerteksti {
+footer {
+    padding: 2em;
+}
+
+/* .footerteksti {
     background-color: rgb(230, 227, 227);
     margin: 2em;
     display: flex;
     flex-wrap: wrap;
+} */
+
+#somenapit {
+    display: flex;
 }
 
 .somenapit ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    display: flex;
-    justify-content: space-around;
+}
+.somenapit ul li {
+    list-style-type: none;
 }
 
-.somenapit ul li {
-    float: right;
-}
 
 
 /* Someikonit */
