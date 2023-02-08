@@ -135,6 +135,7 @@ main {
     padding-left: 6em;
     padding-top: 7em;
     padding-bottom: 7em;
+    display: flex;
     text-align: justify;
 }
 .teksti-info {
