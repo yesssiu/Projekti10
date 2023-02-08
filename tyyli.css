@@ -132,7 +132,7 @@ main {
 /* FOOTER */
 footer {
     padding: 2em;
-    padding-bottom: 4em;
+    padding-bottom: 6em;
 }
 
 .footerteksti {
@@ -141,6 +141,9 @@ footer {
     display: flex;
     flex-wrap: wrap;
 } 
+.cteksti {
+    margin: 2em;
+}
 
 .somenapit {
     display: flex;
