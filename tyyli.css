@@ -138,11 +138,12 @@ footer {
 .footerteksti {
     background-color: rgb(255, 255, 255);
     margin: 2em;
+    margin-left: 4em;
     display: flex;
     flex-wrap: wrap;
 } 
 .cteksti {
-    margin: 2em;
+    margin-left: 4em;
 }
 
 .somenapit {
@@ -170,6 +171,7 @@ footer {
     width: 50px;
     text-align: center;
     text-decoration: none;
+    margin-right: 2em;
 } 
 /* Hover-efekti*/
   .fa:hover {
