@@ -136,7 +136,7 @@ footer {
 }
 
 .footerteksti {
-    background-color: rgb(230, 227, 227);
+    background-color: rgb(255, 255, 255);
     margin: 2em;
     display: flex;
     flex-wrap: wrap;
@@ -152,6 +152,7 @@ footer {
 .somenapit ul {
     margin: 2em;
     padding: 3em;
+    margin-right: 2em;
 }
 
 /*.somenapit ul li {
