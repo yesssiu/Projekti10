@@ -117,6 +117,7 @@ main {
 }
 .index-img {
     max-width: 400px;
+    box-shadow: 2px 2px 12px #626262;
 }
 
 /* YHTEYDENOTTO */
