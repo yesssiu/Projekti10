@@ -127,7 +127,6 @@ main {
 }
 
 /* INFO-SIVU */
-
 .main-info {
     background-color: rgb(255, 255, 255);
     margin-top: 1em;
@@ -139,20 +138,27 @@ main {
     text-align: justify;
 }
 .teksti-info {
-    font-size: 1.3em;
-    line-height: 1.4em;
+    font-size: 1.2em;
+    line-height: 1.5em;
     justify-content: flex;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.teksti-info h1 {
+    font-size: 1.5em;
+    line-height: 4em;
 }
 .kuva-container {
     background-color: #fff;
     float: left;
     margin-right: 3em;
+    margin-left: 1em;
 }
 .image-tile-i {
     background-color: #fff;
 }
 .infokuva {
-    width: 600px;
+    width: 500px;
 }
 
 
