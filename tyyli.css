@@ -132,6 +132,7 @@ main {
 /* FOOTER */
 footer {
     padding: 2em;
+    padding-bottom: 4em;
 }
 
  .footerteksti {
@@ -145,11 +146,12 @@ footer {
     display: flex;
     justify-content: right;
     list-style-type: none;
+    margin-top: -5em;
 }
 
 .somenapit ul {
-    margin: 0;
-    padding: 0;
+    margin: 2em;
+    padding: 3em;
 }
 
 /*.somenapit ul li {
