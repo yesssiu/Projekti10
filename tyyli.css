@@ -1,5 +1,5 @@
 
-/* HEADER */
+/* -- HEADER -- */
 header {
     background-color: #f4EBE5;
     padding: 1.8em;
@@ -15,7 +15,7 @@ header {
 
 
 
-/* BODY */
+/* -- BODY -- */
 body {
     font-family: sans-serif;
     background-color: #fff;
@@ -70,12 +70,15 @@ body {
 
 
 
-/* MAIN */
+/* -- MAIN -- */
+
 main {
    font-family: sans-serif;
    color:rgb(15, 15, 15);
 
 }
+
+/* ETUSIVU */
 .teksti {
     background-color: rgb(255, 255, 255);
     margin-top: 1em;
@@ -112,11 +115,14 @@ main {
     margin: 1em;
     max-width: 400px;
 }
-
 .index-img {
     max-width: 400px;
 }
 
+/* YHTEYDENOTTO */
+#yhteydenottolomake {
+    background-color: #f8d3c5;
+}
 .yhteystiedot {
     background-color: #dde6d5;
     margin-top: 1em;
@@ -125,13 +131,6 @@ main {
     padding-top: 7em;
     padding-bottom: 7em;
 }
-
-/* YHTEYDENOTTO */
-
-#yhteydenottolomake {
-    background-color: #f8d3c5;
-}
-
 
 /* INFO-SIVU */
 .main-info {
@@ -170,7 +169,7 @@ main {
 }
 
 
-/* FOOTER */
+/* -- FOOTER -- */
 footer {
     padding: 2em;
     padding-bottom: 6em;
@@ -199,11 +198,6 @@ footer {
     padding: 3em;
     margin-right: 2em;
 }
-
-/*.somenapit ul li {
-}*/
-
-
 
 /* Someikonit */
 .fa {
