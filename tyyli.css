@@ -132,25 +132,28 @@ main {
 /* FOOTER */
 footer {
     padding: 2em;
+    padding-bottom: 4em;
 }
 
-/* .footerteksti {
+ .footerteksti {
     background-color: rgb(230, 227, 227);
     margin: 2em;
     display: flex;
     flex-wrap: wrap;
-} */
+} 
 
 .somenapit {
     display: flex;
     justify-content: right;
     list-style-type: none;
+    margin-top: -5em;
 }
 
 .somenapit ul {
-    margin: 0;
-    padding: 0;
+    margin: 2em;
+    padding: 3em;
 }
+
 /*.somenapit ul li {
 }*/
 
