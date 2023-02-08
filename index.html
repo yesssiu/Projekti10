@@ -60,48 +60,30 @@
 
 </body>
 
-<script>
-    // When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
 
-// Get the navbar
-var navbar = document.getElementById("navbar");
-
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-</script>
 
 <footer>
     <div class="cteksti"><h5>© LittlePlanet Oy 2022</h5></div>
     <navbar id="navfooter">
-        <div class="footerlinkit"><ul id="navfooterlinks">
-            <li class="navlink">Linkki 11</li>
-            <li class="navlink">Linkki 2</li>
-            <li class="navlink">Linkki 3</li>
-            <li class="navlink">Linkki 4</li>
-
-        </ul>
-        </div>
-
-        <div class="somenapit"><ul id="somenapit">
-            <li><a href="#" class="fa fa-facebook"></a></li>
-            <li><a href="#" class="fa fa-twitter"></a></li>
-            <li><a href="#" class="fa fa-instagram"></a></li>
-            <li><a href="#" class="fa fa-youtube"></a></li>
+        <div class="footerlinkit">
+            <ul id="navfooterlinks">
+                <li class="navlink">Linkki 11</li>
+                <li class="navlink">Linkki 2</li>
+                <li class="navlink">Linkki 3</li>
+                <li class="navlink">Linkki 4</li>
             </ul>
         </div>
-    
 
-    
-</navbar>
+        <div class="somenapit">
+            <ul>
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-instagram"></a></li>
+                <li><a href="#" class="fa fa-youtube"></a></li>
+            </ul>
+        </div>
+    </navbar>
 </footer>
+
+
 </html>

@@ -71,11 +71,11 @@ body {
 /* MAIN */
 main {
    font-family: sans-serif;
-   color:rgb(64, 59, 59);
+   color:rgb(15, 15, 15);
 
 }
 .teksti {
-    background-color: rgb(176, 161, 191);
+    background-color: rgb(208, 189, 208);
     margin-top: 1em;
     padding-right: 12em;
     padding-left: 12em;
@@ -87,8 +87,8 @@ main {
     font-size: 2em;
 }
 .teksti p {
-    font-size: 1.1em;
-    line-height: 1.3em;
+    font-size: 1.3em;
+    line-height: 1.4em;
 }
 .image-container {
     background-color: rgb(221, 238, 237);
@@ -150,18 +150,31 @@ main {
     padding: .5em;
 }
 
-#somenapitlista ul {
+#somenapit ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-#somenapitlista ul li {
+#somenapit ul li {
     float: right;
 }
 
+
+/* Someikonit */
+.fa {
+    color: black;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+} 
+/* Hover-efekti*/
+  .fa:hover {
+    opacity: 0.7;
+}
 
 
 
@@ -172,17 +185,5 @@ main {
 
 /* MEDIA */
 
- /* Someikonit */
- .fa {
-    color: black;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  /* Hover-efekti*/
-  .fa:hover {
-    opacity: 0.7;
-  }
+ 
   
