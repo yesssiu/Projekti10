@@ -150,6 +150,18 @@ main {
     padding: .5em;
 }
 
+#somenapitlista ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#somenapitlista ul li {
+    float: right;
+}
+
 
 
 
@@ -159,3 +171,18 @@ main {
 
 
 /* MEDIA */
+
+ /* Someikonit */
+ .fa {
+    color: black;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Hover-efekti*/
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
