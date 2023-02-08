@@ -118,13 +118,20 @@ main {
 }
 
 .yhteystiedot {
-    background-color: rgb(229, 239, 233);
+    background-color: #dde6d5;
     margin-top: 1em;
     padding-right: 12em;
     padding-left: 12em;
     padding-top: 7em;
     padding-bottom: 7em;
 }
+
+/* YHTEYDENOTTO */
+
+#yhteydenottolomake {
+    background-color: #f8d3c5;
+}
+
 
 /* INFO-SIVU */
 .main-info {
