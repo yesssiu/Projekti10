@@ -130,6 +130,16 @@ main {
     padding-bottom: 7em;
 }
 
+/* INFO-SIVU */
+.teksti-tarina {
+    background-color: rgb(255, 255, 255);
+    margin-top: 1em;
+    padding-right: 10em;
+    padding-left: 10em;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    text-align: justify;
+}
 
 
 /* FOOTER */
