@@ -127,7 +127,8 @@ main {
 }
 
 /* INFO-SIVU */
-.teksti-tarina {
+
+.main-info {
     background-color: rgb(255, 255, 255);
     margin-top: 1em;
     padding-right: 10em;
@@ -136,11 +137,17 @@ main {
     padding-bottom: 7em;
     text-align: justify;
 }
-.teksti-tarina p {
+.teksti-info p {
     font-size: 1.3em;
     line-height: 1.4em;
     display: flex;
     justify-content: right;
+}
+.kuva-container {
+    background-color: #fff;
+}
+.image-tile-i {
+    background-color: #fff;
 }
 .infokuva {
     width: 400px;
