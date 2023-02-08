@@ -141,18 +141,18 @@ footer {
     flex-wrap: wrap;
 } */
 
-#somenapit {
+.somenapit {
     display: flex;
+    justify-content: right;
+    list-style-type: none;
 }
 
 .somenapit ul {
     margin: 0;
     padding: 0;
-    list-style-type: none;
 }
-.somenapit ul li {
-    list-style-type: none;
-}
+/*.somenapit ul li {
+}*/
 
 
 
