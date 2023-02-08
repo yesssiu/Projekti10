@@ -134,12 +134,12 @@ footer {
     padding: 2em;
 }
 
-/* .footerteksti {
+ .footerteksti {
     background-color: rgb(230, 227, 227);
     margin: 2em;
     display: flex;
     flex-wrap: wrap;
-} */
+} 
 
 .somenapit {
     display: flex;
@@ -151,6 +151,7 @@ footer {
     margin: 0;
     padding: 0;
 }
+
 /*.somenapit ul li {
 }*/
 
