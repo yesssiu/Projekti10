@@ -331,15 +331,16 @@ main {
 
     #burgermenu-bar {
         width: 45px;
-        height: 40px;
+        height: 5px;
         margin: 30px 0 20px 20px;
         cursor: pointer;
+        font-size: .9em;
       }
 
       .bar {
         height: 5px;
         width: 100%;
-        background-color: #DC052D;
+        background-color: #ca0e3184;
         display: block;
         border-radius: 5px;
         transition: 0.3s ease;
@@ -380,7 +381,7 @@ main {
       }
 
       .navbar li a {
-        color: rgb(173, 18, 18);
+        color: rgb(132, 18, 18);
         font-size: 1em;
         text-decoration: none;
       }
