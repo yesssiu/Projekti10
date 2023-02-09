@@ -88,9 +88,11 @@ main {
     padding-top: 7em;
     padding-bottom: 7em;
     text-align: justify;
+    font-family: Montserrat;
 }
-.teksti h2 {
+.teksti h1 {
     font-size: 2em;
+    font-family: Montserrat-medium;
 }
 .teksti p {
     font-size: 1.3em;
@@ -132,7 +134,16 @@ main {
     padding-left: 12em;
     padding-top: 7em;
     padding-bottom: 7em;
+    font-family: Montserrat;
 }
+.yhteystiedot h1 {
+    font-family: Montserrat-medium;
+}
+#yhteydenottolomake h2 {
+    font-family: Montserrat-medium;
+    font-size: 1.9em;
+}
+
 
 /* INFO-SIVU */
 .main-info {
@@ -147,14 +158,16 @@ main {
 }
 .teksti-info {
     font-size: 1.2em;
-    line-height: 1.5em;
+    line-height: 1.4em;
     justify-content: flex;
     padding-left: 3em;
     padding-right: 3em;
+    font-family: Montserrat;
 }
 .teksti-info h1 {
-    font-size: 1.5em;
-    line-height: 4em;
+    font-size: 1.4em;
+    line-height: 3em;
+    font-family: Montserrat-medium;
 }
 .kuva-container {
     background-color: #fff;
@@ -234,8 +247,12 @@ footer {
     src: url(fontit/Ruluko/Ruluko-Regular.ttf);
 }
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: Montserrat;
+    src: url(fontit/Montserrat/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: Montserrat-medium;
+    src: url(fontit/Montserrat/Montserrat-Medium.ttf);
 }
 
 
