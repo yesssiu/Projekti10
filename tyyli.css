@@ -27,15 +27,14 @@ body {
     position: sticky;
     position: -webkit-sticky;
     background-color: rgb(255, 255, 255);
-    padding-top: 5em;
     top: 0;
 }
 #navbar ul {
     background-color: rgb(255, 255, 255);
-    margin-top: -2em;
+    margin-top: 0em;
     padding: 1.5em;
     list-style-type: none;
-    display: flex;
+    display: flex; 
     flex-wrap: wrap;
 }
 #navbar ul li {
@@ -76,7 +75,6 @@ body {
 main {
    font-family: sans-serif;
    color:rgb(15, 15, 15);
-
 }
 
 /* ETUSIVU */
@@ -186,6 +184,9 @@ footer {
 } 
 .cteksti {
     margin-left: 4em;
+}
+.cteksti a {
+    color:rgb(15, 15, 15);
 }
 
 .somenapit {
