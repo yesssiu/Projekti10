@@ -122,24 +122,80 @@ main {
 }
 
 /* YHTEYDENOTTO */
-#yhteydenottolomake {
-    background-color: #f8d3c5;
+
+#personal-info {
+    margin-top: 1em;
+    background-color: #dde6d5;
+    display: grid;
+    width: 100%;
+    justify-content: space-evenly;
+    align-content: center;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto;
+    font-family: Montserrat;
+}
+#personal-info h3 {
+    font-family: Montserrat-medium;
+}
+#personal-info p {
+    font-size: 1em;
+}
+#personal-info img {
+    box-shadow: 2px 2px 8px #626262;
 }
 .yhteystiedot {
     background-color: #dde6d5;
     margin-top: 1em;
-    padding-right: 12em;
-    padding-left: 12em;
     padding-top: 7em;
     padding-bottom: 7em;
+    margin-left: 1em;
+    margin-right: 1em;
     font-family: Montserrat;
 }
 .yhteystiedot h1 {
     font-family: Montserrat-medium;
 }
+
+.profiilikuva {
+    border-radius: 100%;
+}
+.charlotte {
+    margin: 1em;
+    margin-top: 3em;
+    padding: 1em;
+    text-align: center;
+}
+.ilona {
+    margin: 1em;
+    margin-top: 3em;
+    padding: 1em;
+    text-align: center;
+}
+.jessica {
+    margin: 1em;
+    margin-top: 3em;
+    padding: 1em;
+    text-align: center;
+}
+.saana {
+    margin: 1em;
+    margin-top: 3em;
+    padding: 1em;
+    text-align: center;
+}
+
+
+/* lomake */
+#yhteydenottolomake {
+    background-color: #f8d3c5;
+}
 #yhteydenottolomake h2 {
     font-family: Montserrat-medium;
     font-size: 1.9em;
+}
+
+form {
+
 }
 
 
@@ -158,8 +214,8 @@ main {
     font-size: 1.2em;
     line-height: 1.4em;
     justify-content: flex;
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
     font-family: Montserrat;
 }
 .teksti-info h1 {
@@ -177,7 +233,7 @@ main {
     background-color: #fff;
 }
 .infokuva {
-    width: 500px;
+    width: 100%;
     box-shadow: 4px 4px 12px #626262;
 }
 
@@ -186,6 +242,7 @@ main {
 footer {
     padding: 2em;
     padding-bottom: 6em;
+    font-family: Montserrat;
 }
 
 .footerteksti {
@@ -197,9 +254,12 @@ footer {
 } 
 .cteksti {
     margin-left: 4em;
+    font-family: Montserrat-medium;
+    letter-spacing: .2em;
 }
 .cteksti a {
     color:rgb(15, 15, 15);
+    text-decoration: none;
 }
 
 .somenapit {
