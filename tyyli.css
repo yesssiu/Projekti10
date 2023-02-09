@@ -25,6 +25,8 @@ body {
 /* NAVIGAATIO */
 #navbar {
     position: sticky;
+    position: -webkit-sticky;
+    height: 5em;
     background-color: rgb(255, 255, 255);
     overflow: hidden;
     top: 0;
