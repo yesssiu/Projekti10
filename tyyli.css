@@ -28,6 +28,8 @@ body {
     position: -webkit-sticky;
     background-color: rgb(255, 255, 255);
     top: 0;
+    font-family: Syncopate;
+    font-size: 1.2em;
 }
 #navbar ul {
     background-color: rgb(255, 255, 255);
@@ -222,6 +224,18 @@ footer {
 @font-face {
     font-family: Syncopate;
     src: url(fontit/Syncopate/Syncopate-Regular.ttf);
+}
+@font-face {
+    font-family: Syncopate-Bold;
+    src: url(fontit/Syncopate/Syncopate-Bold.ttf)
+}
+@font-face {
+    font-family: ;
+    src: url();
+}
+@font-face {
+    font-family: ;
+    src: url();
 }
 
 
