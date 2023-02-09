@@ -142,6 +142,7 @@ main {
 }
 #personal-info img {
     box-shadow: 2px 2px 8px #626262;
+    max-width: 150px;
 }
 .yhteystiedot {
     background-color: #dde6d5;
