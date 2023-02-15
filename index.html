@@ -5,10 +5,6 @@
 <script src="burgermenu.js"></script>
 
 <html>
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
 <head>
     <meta charset="utf-8">
     <title>LittlePlanet – Huoletonta leikkiä LittlePlanetin kanssa</title>
@@ -20,6 +16,7 @@
 </head>
 
 <body>
+    <button id="myBtn"><a href="#top" style="color: white">Alkuun</a></button>
 
 <div>
     <div id="burgermenu">
@@ -46,10 +43,9 @@
 
 <header id="header">
     <picture>
-        <source srcset="kuvat/logo_250x250.png" media="(max-width: 750px)">
-        <source srcset="kuvat/Little.png">
-        <img id="headerimg" src="kuvat/Little.png">
-    </picture>
+        <source media=(min-width 400px) src set="Kuvat/iso_logo_438px.png 438W" sizes="80vw">
+    <img id="headerimg" src="kuvat/Little.png">
+</picture>
 </header>
 
 
@@ -61,16 +57,12 @@
 
 
 <div class="image-container">
-    <div class="image-tile1">
-        <picture>
-        <source srcset="#" media="max-width: 750px">
-        <source srcset="#" media="max-width: 750px">
-        <img class="index-img" alt="Äiti ja lapsi leikkii tiipiissä" src="kuvat/1200px/lapsi3_1200.jpg">
-        </picture>
+    <div class="image-tile">
+        <img class="index-img" alt="Äiti ja lapsi leikkii tiipiissä" src="kuvat/valikoima/lapsi3.jpg">
     </div>
 
-    <div class="image-tile2">
-        <img class="index-img" alt="Lapsi halaa pehmopupua" src="kuvat/1200px/lapsi1_1200.jpg">
+    <div class="image-tile">
+        <img class="index-img" alt="Lapsi halaa pehmopupua" src="kuvat/valikoima/lapsi1.jpg">
     </div>
 
 </div>
