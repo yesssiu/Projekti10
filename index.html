@@ -5,10 +5,6 @@
 <script src="burgermenu.js"></script>
 
 <html>
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
 <head>
     <meta charset="utf-8">
     <title>LittlePlanet – Huoletonta leikkiä LittlePlanetin kanssa</title>
@@ -20,9 +16,7 @@
 </head>
 
 <body>
-
-    <a name="top"></a>
-    <a href="#top">Takaisin ylös</a>
+    <button id="myBtn"><a href="#top" style="color: white">Alkuun</a></button>
 
 <div>
     <div id="burgermenu">
@@ -39,7 +33,7 @@
         <li class="navlink"><a href="info.html">Tietoa Meistä</a></li>
         <li class="navlink"><a href="valikoima.html">Valikoima</a></li>
         <li class="navlink"><a href="yhteydet.html">Ota yhteyttä</a></li>
-        <li class="navlink"><a href="index_en">In English</a></li>
+        <a href="index_en"><img id="eng" src="kuvat/eng1.png"></a>
     </ul>
 </nav>
 </div>
@@ -49,10 +43,9 @@
 
 <header id="header">
     <picture>
-        <source srcset="kuvat/logo_250x250.png" media="(max-width: 750px)">
-        <source srcset="kuvat/Little.png">
-        <img id="headerimg" src="kuvat/Little.png">
-    </picture>
+        <source media=(min-width 400px) src set="Kuvat/iso_logo_438px.png 438W" sizes="80vw">
+    <img id="headerimg" src="kuvat/Little.png">
+</picture>
 </header>
 
 
@@ -66,18 +59,14 @@
 <div class="image-container">
     <div class="image-tile1">
         <picture>
-            <source srcset="kuvat/500px/lapsi3_500.jpg" media="(max-width: 480px)">
-            <source srcset="kuvat/1200px/lapsi3_1200.jpg">
-            <img class="index-img" alt="Äiti ja lapsi leikkii tiipiissä" src="kuvat/1200px/lapsi3_1200.jpg">
+        <source srcset="#" media="max-width: 750px">
+        <source srcset="#" media="max-width: 750px">
+        <img class="index-img" alt="Äiti ja lapsi leikkii tiipiissä" src="kuvat/1200px/lapsi3_1200.jpg">
         </picture>
     </div>
 
     <div class="image-tile2">
-        <picture>
-            <source srcset="kuvat/500px/lapsi1_500.jpg" media="(max-width: 480px)">
-            <source srcset="kuvat/1200px/lapsi1_1200.jpg">
-            <img class="index-img" alt="Lapsi halaa pehmopupua" src="kuvat/1200px/lapsi1_1200.jpg">
-        </picture>
+        <img class="index-img" alt="Lapsi halaa pehmopupua" src="kuvat/1200px/lapsi1_1200.jpg">
     </div>
 
 </div>
