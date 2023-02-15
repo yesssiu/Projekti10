@@ -48,7 +48,7 @@ body {
 }
 
 .navlink {
-    margin-right: 4em;
+    margin-right: 3em;
     float: right;
     padding-top: .8em;
     padding-bottom: .5em;
@@ -111,7 +111,12 @@ main {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
 }
-.image-container > image-tile {
+.image-container > image-tile1 {
+    background-color: rgb(221, 238, 237);
+    margin: 1em;
+    max-width: 400px;
+}
+.image-container > img-tile2 {
     background-color: rgb(221, 238, 237);
     margin: 1em;
     max-width: 400px;
@@ -125,12 +130,12 @@ main {
 
 #personal-info {
     margin-top: 1em;
-    background-color: #dde6d5;
+    background-color: #fff;
     display: grid;
     width: 100%;
     justify-content: space-evenly;
     align-content: center;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto;
     font-family: Montserrat;
 }
@@ -145,10 +150,9 @@ main {
     max-width: 150px;
 }
 .yhteystiedot {
-    background-color: #dde6d5;
     margin-top: 1em;
-    padding-top: 7em;
-    padding-bottom: 7em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     margin-left: 1em;
     margin-right: 1em;
     font-family: Montserrat;
@@ -276,7 +280,7 @@ footer {
 .fa {
     color: black;
     font-size: 30px;
-    width: 50px;
+    width: 2rem;
     text-align: center;
     text-decoration: none;
     margin-right: 2em;
@@ -313,78 +317,157 @@ footer {
 
 
 
-/* MEDIA */
-@media screen and (max-width: 1266px) {
 
+/* ----- MEDIAT ERI RUUDUILLE ----- */
+
+@media screen and (max-width: 1050px) {
 /* NAVIGAATIO */
 .navbar {
     position: sticky;
     position: -webkit-sticky;
     background-color: rgb(255, 255, 255);
     top: 0;
-    font-family: Syncopate;
     font-size: 1.1em;
 }
 .navbar ul {
     margin-top: 0em;
     padding: 1.5em;
-    list-style-type: none;
-    display: flex; 
-    flex-wrap: wrap;
     /*display: block;*/
     border: 1px;
     padding: 1em;
 }
 .navbar ul li {
-    font-size: .8em;
-    text-transform: uppercase;
-    letter-spacing: .2em;
+    font-size: .85em;
+    letter-spacing: .1em;
 }
-
 .navlink {
-    margin-right: 2em;
+    margin-right: 1.1em;
     float: right;
     padding-top: 1.2em;
     padding-bottom: .5em;
 }
-.navlink a {
-    color: black;
-    text-decoration: none;
-}
-.navlink a:hover {
-    color:rgb(123, 33, 33);
-}  
+
+
+/* ETUSIVU */
+    .teksti {
+        padding-right: 6em;
+        padding-left: 6em;
+    }
+    .teksti h1 {
+        font-size: 1.7em;
+    }
+    .teksti p {
+        font-size: 1.1em;
+        line-height: 1.4em;
+    }
+
+/* kuvat */
+    .image-container {
+        display: grid;
+        width: 100%;
+    }
+    .index-img {
+        max-width: 400px;
+        box-shadow: 2px 2px 12px #626262;
+    }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
+    /* etusivun kuvat */
+    .index-img {
+        max-width: 250px;
+        box-shadow: 2px 2px 12px #626262;
+    }
 
+    /* yhteystietojen profiilit */
+    #personal-info {
+        margin-top: 1em;
+        display: grid;
+        width: 100%;
+        justify-content: space-evenly;
+        align-content: center;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        font-family: Montserrat;
+    }
+    .charlotte {
+        margin-top: 1em;
+    }
+    .ilona {
+        margin-top: 1em;
+    }
+    .jessica {
+        margin-top: .5em;
+    }
+    .saana {
+        margin-top: .5em;
+    }
+    #personal-info img {
+        max-width: 120px;
+    }
+
+
+    /* Somenapit */
+    .somenapit {
+        display: flex;
+        justify-content: left;
+        list-style-type: none;
+        margin-top: 3em;
+        padding-left: 3.3em;
+    }
+
+    .cteksti {
+        margin-top: 1em;
+        font-size: .8em;
+        padding-left: 1em;
+        letter-spacing: .1em;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+/* yhteystiedot */
+    .yhteystiedot {
+        margin-top: 1em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-family: Montserrat;
+    }
+    .yhteystiedot h1 {
+        font-family: Montserrat-medium;
+    }
+
+/* kuvat */
+    .index-img {
+        max-width: 200px;
+    }
+
+/* header */
     header {
-        background-color: #f4EBE5;
         padding: 1.8em;
     
     }
     #headerimg {
-        background-color: #f4ebe5;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 90%;
+        max-width: 50%;
+        max-height: auto;
     }
 
     .teksti {
-        background-color: rgb(255, 255, 255);
         margin-top: 1em;
         padding-right: 2em;
         padding-left: 2em;
         padding-top: 2em;
         padding-bottom: 2em;
         text-align: center;
-        font-family: Montserrat;
     }
     .teksti h1 {
         font-size: 1em;
         text-align: center;
-        font-family: Montserrat-medium;
     }
 
     .teksti p {
@@ -392,6 +475,8 @@ footer {
         line-height: 1.4em;
     }
     
+
+ /* BURGERMENU */
     #burgermenu {
         z-index: 2;
       }
@@ -447,7 +532,7 @@ footer {
       }
 
       .navbar li a {
-        color: rgb(173, 18, 18);
+        color: black;
         font-size: 1em;
         text-decoration: none;
       }
@@ -473,7 +558,7 @@ footer {
         width: 0;
         height: 0;
         margin: 40px 0 30px 30px;
-        background: radial-gradient(circle, #f0a4b2, #f8b7c3);
+        background: radial-gradient(circle, #f8d3c5, #f8d3c5);
         border-radius: 50%;
         transition: 0.3s ease;
       }
@@ -503,14 +588,11 @@ footer {
         height: 460px;
         transform: translate(-60%,-30%);
       }
-      
-      
-    
-
 }
 
-@media screen and (max-width: 400px) {
 
+@media screen and (max-widht: 500px) {
+    
 }
  
   
