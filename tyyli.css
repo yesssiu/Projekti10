@@ -130,12 +130,12 @@ main {
 
 #personal-info {
     margin-top: 1em;
-    background-color: #dde6d5;
+    background-color: #fff;
     display: grid;
     width: 100%;
     justify-content: space-evenly;
     align-content: center;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto;
     font-family: Montserrat;
 }
@@ -151,8 +151,8 @@ main {
 }
 .yhteystiedot {
     margin-top: 1em;
-    padding-top: 7em;
-    padding-bottom: 7em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     margin-left: 1em;
     margin-right: 1em;
     font-family: Montserrat;
@@ -373,17 +373,60 @@ footer {
 }
 
 @media screen and (max-width: 850px) {
+    /* etusivun kuvat */
     .index-img {
         max-width: 250px;
         box-shadow: 2px 2px 12px #626262;
+    }
+
+    /* yhteystietojen profiilit */
+    #personal-info {
+        margin-top: 1em;
+        display: grid;
+        width: 100%;
+        justify-content: space-evenly;
+        align-content: center;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        font-family: Montserrat;
+    }
+    .charlotte {
+        margin-top: 1em;
+    }
+    .ilona {
+        margin-top: 1em;
+    }
+    .jessica {
+        margin-top: .5em;
+    }
+    .saana {
+        margin-top: .5em;
+    }
+    #personal-info img {
+        max-width: 120px;
     }
 }
 
 @media screen and (max-width: 750px) {
 
+/* yhteystiedot */
+    .yhteystiedot {
+        margin-top: 1em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-family: Montserrat;
+    }
+    .yhteystiedot h1 {
+        font-family: Montserrat-medium;
+    }
+
+/* kuvat */
     .index-img {
         max-width: 200px;
     }
+
 /* header */
     header {
         padding: 1.8em;
@@ -529,8 +572,6 @@ footer {
         transform: translate(-60%,-30%);
       }
       
-      
-    
 
 }
  
