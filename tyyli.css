@@ -497,7 +497,7 @@ footer {
       }
 
       .navbar li a {
-        color: rgb(173, 18, 18);
+        color: black;
         font-size: 1em;
         text-decoration: none;
       }
@@ -523,7 +523,7 @@ footer {
         width: 0;
         height: 0;
         margin: 40px 0 30px 30px;
-        background: radial-gradient(circle, #f0a4b2, #f8b7c3);
+        background: radial-gradient(circle, #f8d3c5, #f8d3c5);
         border-radius: 50%;
         transition: 0.3s ease;
       }
