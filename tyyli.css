@@ -75,6 +75,11 @@ body {
     padding-top: .2em;
     display: flex;
 }
+#fin {
+    width: 80%;
+    padding-top: .2em;
+    display: flex;
+}
 
 
 
@@ -358,6 +363,10 @@ footer {
     max-width: 35px;
     padding-top: .4em;
 }
+#fin {
+    max-width: 35px;
+    padding-top: .4em;
+}
 
 
 /* ETUSIVU */
@@ -611,6 +620,13 @@ footer {
         float: left;
         padding: .4em;
       }
+      #fin {
+        width: 10%;
+        float: left;
+        padding: .4em;
+        margin-left: -11.5em;
+        margin-top: 2em;
+    }
 }
 
 
