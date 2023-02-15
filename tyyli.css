@@ -150,7 +150,6 @@ main {
     max-width: 150px;
 }
 .yhteystiedot {
-    background-color: #dde6d5;
     margin-top: 1em;
     padding-top: 7em;
     padding-bottom: 7em;
@@ -321,10 +320,7 @@ footer {
 
 /* ----- MEDIAT ERI RUUDUILLE ----- */
 
-
-
 @media screen and (max-width: 1050px) {
-
 /* NAVIGAATIO */
 .navbar {
     position: sticky;
@@ -353,38 +349,47 @@ footer {
 
 
 /* ETUSIVU */
-.teksti {
-    padding-right: 6em;
-    padding-left: 6em;
-}
-.teksti h1 {
-    font-size: 1.7em;
-}
-.teksti p {
-    font-size: 1.1em;
-    line-height: 1.4em;
-}
+    .teksti {
+        padding-right: 6em;
+        padding-left: 6em;
+    }
+    .teksti h1 {
+        font-size: 1.7em;
+    }
+    .teksti p {
+        font-size: 1.1em;
+        line-height: 1.4em;
+    }
 
 /* kuvat */
-.image-container {
-    display: grid;
-}
-.index-img {
-    max-width: 400px;
-    box-shadow: 2px 2px 12px #626262;
-}
+    .image-container {
+        display: grid;
+        width: 100%;
+    }
+    .index-img {
+        max-width: 400px;
+        box-shadow: 2px 2px 12px #626262;
+    }
 }
 
+@media screen and (max-width: 850px) {
+    .index-img {
+        max-width: 250px;
+        box-shadow: 2px 2px 12px #626262;
+    }
+}
 
 @media screen and (max-width: 750px) {
 
+    .index-img {
+        max-width: 200px;
+    }
+/* header */
     header {
-        background-color: #f4EBE5;
         padding: 1.8em;
     
     }
     #headerimg {
-        background-color: #f4ebe5;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -393,19 +398,16 @@ footer {
     }
 
     .teksti {
-        background-color: rgb(255, 255, 255);
         margin-top: 1em;
         padding-right: 2em;
         padding-left: 2em;
         padding-top: 2em;
         padding-bottom: 2em;
         text-align: center;
-        font-family: Montserrat;
     }
     .teksti h1 {
         font-size: 1em;
         text-align: center;
-        font-family: Montserrat-medium;
     }
 
     .teksti p {
@@ -413,7 +415,8 @@ footer {
         line-height: 1.4em;
     }
     
-    /* BURGERMENU */
+
+ /* BURGERMENU */
     #burgermenu {
         z-index: 2;
       }
@@ -529,19 +532,6 @@ footer {
       
     
 
-}
-
-@media screen and (max-width: 600px) {
-
-    .image-container {
-        display: block;
-        padding-left: 3em;
-        padding-right: 3em;
-    }
-    .index-img {
-        margin:1.5em;
-    }
-    
 }
  
   
