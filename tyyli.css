@@ -404,7 +404,8 @@ footer {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 90%;
+        max-width: 60%;
+        max-height: auto;
     }
 
     .teksti {

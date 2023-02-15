@@ -5,6 +5,10 @@
 <script src="burgermenu.js"></script>
 
 <html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
 <head>
     <meta charset="utf-8">
     <title>LittlePlanet – Huoletonta leikkiä LittlePlanetin kanssa</title>
@@ -41,9 +45,10 @@
 
 <header id="header">
     <picture>
-        <source media=(min-width 400px) src set="Kuvat/iso_logo_438px.png 438W" sizes="80vw">
-    <img id="headerimg" src="kuvat/Little.png">
-</picture>
+        <source srcset="kuvat/logo_250x250.png" media="(max-width: 750px)">
+        <source srcset="kuvat/Little.png">
+        <img id="headerimg" src="kuvat/Little.png">
+    </picture>
 </header>
 
 
@@ -55,8 +60,12 @@
 
 
 <div class="image-container">
-    <div class="image-tile1">
+    <div class="image-tile">
+        <picture>
+        <source srcset="#" media="max-width: 750px">
+        <source srcset="#" media="max-width: 750px">
         <img class="index-img" alt="Äiti ja lapsi leikkii tiipiissä" src="kuvat/valikoima/lapsi3.jpg">
+        </picture>
     </div>
 
     <div class="image-tile2">
