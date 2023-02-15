@@ -31,6 +31,22 @@ body {
     font-family: Syncopate;
     font-size: 1.1em;
 }
+/*Floating Back-To-Top Button*/
+#myBtn {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 18.5%;
+    left: 77.25%;
+    max-width: 30px;
+    width: 100%;
+    font-size: 12px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: rgb(100,100,100);
+    padding: .5px;
+    border-radius: 4px;
+
+}
 .navbar ul {
     margin-top: 0em;
     padding: 1.5em;
