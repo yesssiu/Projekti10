@@ -320,6 +320,26 @@ footer {
 
 @media screen and (max-width: 500px) {
 
+    .teksti {
+        background-color: rgb(255, 255, 255);
+        margin-top: 1em;
+        padding-right: 2em;
+        padding-left: 2em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        text-align: center;
+        font-family: Montserrat;
+    }
+    .teksti h1 {
+        font-size: 1em;
+        text-align: center;
+        font-family: Montserrat-medium;
+    }
+
+    .teksti p {
+        font-size: 0.8em;
+        line-height: 1.4em;
+    }
     
     #burgermenu {
         z-index: 2;
