@@ -54,7 +54,12 @@
 
         <div class="kuva-container">
             <div class="image-tile-i">
-                <img class="infokuva" alt="Merenranta ja aallot" src="kuvat/valikoima/aboutme_kuva.jpg">
+                <picture>
+                    <source srcset="kuvat/aboutme_kuva_380.jpg" media="(max-width: 850px)">
+                    <source srcset="kuvat/500px/aboutme_kuva_500.jpg" media="(max-width: 1050px)">
+                    <source srcset="kuvat/aboutme_kuva_740.jpg">
+                    <img class="infokuva" alt="Seashore and waves" src="kuvat/aboutme_kuva_740.jpg">
+                </picture>
             </div>
         </div>
 
