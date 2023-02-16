@@ -10,9 +10,9 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 1.4em;
-    padding-bottom: 1em;
-    width: 90%;
+    padding-top: 0;
+    padding-bottom: 2em;
+    width: 80%;
 }
 
 
@@ -424,10 +424,8 @@ footer {
 
 @media screen and (max-width: 850px) {
     #headerimg {
-        padding-top: 0;
-        padding-bottom: 0;
-        width: 100%;
-        
+        padding-top: -1em;
+        padding-bottom: 2em;
     }
 
     /* etusivun kuvat */
@@ -503,6 +501,9 @@ footer {
 }
 
 @media screen and (max-width: 750px) {
+    #headerimg {
+        padding-bottom: 0em;
+    } 
 
 /* yhteystiedot */
     .yhteystiedot {
