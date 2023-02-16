@@ -240,14 +240,13 @@ main {
 .kuva-container {
     background-color: #fff;
     float: left;
-    margin-right: 3em;
+    margin-right: 2em;
     margin-left: 1em;
 }
 .image-tile-i {
     background-color: #fff;
 }
 .infokuva {
-    width: 100%;
     box-shadow: 4px 4px 12px #626262;
 }
 
@@ -391,6 +390,23 @@ footer {
         max-width: 400px;
         box-shadow: 2px 2px 12px #626262;
     }
+
+/* Info-sivu */
+    .main-info {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .teksti-info {
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+    .kuva-container {
+        margin-left: .1em;
+    }
+    .infokuva {
+
+    }
+
 }
 
 @media screen and (max-width: 850px) {
