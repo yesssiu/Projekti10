@@ -393,18 +393,25 @@ footer {
 
 /* Info-sivu */
     .main-info {
-        padding-left: 1em;
-        padding-right: 1em;
+        padding-left: 1.3em;
+        padding-right: 1.3em;
     }
     .teksti-info {
         padding-right: 1em;
-        padding-left: 1em;
+        padding-left: .5em;
+    }
+    .teksti-info h1 {
+        font-size: 1.1em;
+        line-height: 1.4em;
+    }
+    .teksti-info p {
+        font-size: 0.8em;
+        line-height: 1.2em;
     }
     .kuva-container {
-        margin-left: .1em;
+        margin-left: 0;
     }
     .infokuva {
-
     }
 
 }
@@ -459,6 +466,27 @@ footer {
         font-size: .8em;
         padding-left: 1em;
         letter-spacing: .1em;
+    }
+
+
+    /* Info-sivu */
+    .main-info {
+        padding-left: 1.2em;
+        padding-right: 1.2em;
+    }
+    .teksti-info {
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+    .teksti-info h1 {
+        font-size: 1.1em;
+    }
+    .teksti-info p {
+        font-size: 0.7em;
+        line-height: 1.2em;
+    }
+    .kuva-container {
+        margin-left: .1em;
     }
 }
 
