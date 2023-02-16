@@ -1,161 +1,197 @@
 <!DOCTYPE html>
 <!-- someikoni importtaus -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
 <script src="burgermenu.js"></script>
 
 <html lang="fi">
-<head>
-    <meta charset="utf-8">
-    <title>Ota yhteyttä – LittlePlanetin yhteystiedot ja yhteydenottolomake</title>
-    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      Ota yhteyttä – LittlePlanetin yhteystiedot ja yhteydenottolomake
+    </title>
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
-        @import url(tyyli.css);
+      @import url(tyyli.css);
     </style>
-</head>
+  </head>
 
-<body>
-
-    <div>
-        <div id="burgermenu">
-            <div id="burgermenu-bar" onclick="menuOnClick()">
-              <div id="bar1" class="bar"></div>
-              <div id="bar2" class="bar"></div>
-              <div id="bar3" class="bar"></div>
-            </div>
-            </div>
-    
-    <nav class="navbar" id="navbar">
+  <body>
+    <div class="navdivit">
+      <div class="burgermenu-bg" id="burgermenu-bg"></div>
+      <nav class="navbar" id="navbar">
         <ul>
-            <a href="index.html"><img id="minilogo" src="kuvat/Logo_pieni2.png"></a>
-            <li class="navlink"><a href="index.html">Etusivu</a></li>
-            <li class="navlink"><a href="info.html">Tietoa Meistä</a></li>
-            <li class="navlink"><a href="valikoima.html">Valikoima</a></li>
-            <li class="navlink"><a href="yhteydet.html">Ota yhteyttä</a></li>
-            <a href="index_en.html"><img id="eng" src="kuvat/eng1.png"></a>
+          <a href="index.html"
+            ><img id="minilogo" src="kuvat/Logo_pieni2.png"
+          /></a>
+          <li class="navlink"><a href="index.html">Etusivu</a></li>
+          <li class="navlink"><a href="info.html">Tietoa Meistä</a></li>
+          <li class="navlink"><a href="valikoima.html">Valikoima</a></li>
+          <li class="navlink"><a href="yhteydet.html">Ota yhteyttä</a></li>
+          <a href="index_en.html"><img id="eng" src="kuvat/eng1.png" /></a>
         </ul>
-    </nav>
-    </div>
-    
-    <div class="burgermenu-bg" id="burgermenu-bg"></div>
-    </div>
-
-<header id="header">
-    <picture>
-        <source srcset="kuvat/logo_250x250.png" media="(max-width: 750px)">
-        <source srcset="kuvat/Little.png">
-        <img id="headerimg" src="kuvat/Little.png">
-    </picture>
-    <div id="scroll-top"></div>
-</header>
-
-<main>
-    
-    <div id="personal-info">
-
-        <div class="charlotte">
-            <img class="profiilikuva" src="kuvat/profiilikuvat/0B9F9E37-5FE2-4392-8913-4D8FB5EFB31F.jpeg">
-            <h3>Charlotte</h3>
-            <p>
-                Markkinointijohtaja<br>
-                +358 45 123 4567<br>
-            </p>
+      </nav>
+      <div id="burgermenu">
+        <div id="burgermenu-bar" onclick="menuOnClick()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
         </div>
-        
+      </div>
+    </div>
+
+    <header id="header">
+      <picture>
+        <source
+          media="(min-width"
+          400px)
+          src
+          set="Kuvat/iso_logo_438px.png 438W"
+          sizes="80vw"
+        />
+        <img id="headerimg" src="kuvat/Little.png" />
+      </picture>
+      <div id="scroll-top"></div>
+    </header>
+
+    <main>
+      <div id="personal-info">
+        <div class="charlotte">
+          <img
+            class="profiilikuva"
+            src="kuvat/profiilikuvat/0B9F9E37-5FE2-4392-8913-4D8FB5EFB31F.jpeg"
+          />
+          <h3>Charlotte</h3>
+          <p>
+            Markkinointijohtaja<br />
+            +358 45 123 4567<br />
+          </p>
+        </div>
+
         <div class="ilona">
-            <img class="profiilikuva" src="kuvat/profiilikuvat/ilona.png">
-            <h3>Ilona</h3>
-            <p>
-                Teknologiajohtaja<br>
-                +358 45 234 5678<br>
-            </p>
+          <img class="profiilikuva" src="kuvat/profiilikuvat/ilona.png" />
+          <h3>Ilona</h3>
+          <p>
+            Teknologiajohtaja<br />
+            +358 45 234 5678<br />
+          </p>
         </div>
         <div class="jessica">
-            <img class="profiilikuva" src="kuvat/profiilikuvat/jessicap1.png">
-            <h3>Jessica</h3>
-            <p>
-                Talousjohtaja<br>
-                +358 45 345 6789<br>
-            </p>
+          <img class="profiilikuva" src="kuvat/profiilikuvat/jessicap1.png" />
+          <h3>Jessica</h3>
+          <p>
+            Talousjohtaja<br />
+            +358 45 345 6789<br />
+          </p>
         </div>
         <div class="saana">
-            <img class="profiilikuva" src="kuvat/profiilikuvat/IMG_20230209_145255.png">
-            <h3>Saana</h3>
-            <p>
-                Toimitusjohtaja<br>
-                +358 45 456 7890<br>
-            </p>
+          <img
+            class="profiilikuva"
+            src="kuvat/profiilikuvat/IMG_20230209_145255.png"
+          />
+          <h3>Saana</h3>
+          <p>
+            Toimitusjohtaja<br />
+            +358 45 456 7890<br />
+          </p>
+        </div>
+      </div>
+
+      <div class="teksti" id="yhteydenottolomake">
+        <h2>Ota Meihin Yhteyttä</h2>
+
+        <div class="yhteystiedot">
+          <p>
+            LittlePlanet Oy<br />
+            Planeettakatu 15<br />
+            00100 Helsinki<br />
+            <a href="tel:#">+358 40 123 456</a><br />
+            <a href="mailto:#">asiakaspalvelu@littleplanet.com</a>
+          </p>
         </div>
 
-
-    </div>
-
-
-    <div class="teksti" id="yhteydenottolomake">
-
-    <h2>Ota Meihin Yhteyttä</h2>
-    
-    <div class="yhteystiedot">
-        <p>LittlePlanet Oy<br>
-        Planeettakatu 15<br>
-        00100 Helsinki<br>
-        <a href="tel:#">+358 40 123 456</a><br>
-        <a href="mailto:#">asiakaspalvelu@littleplanet.com</a>
+        <p>
+          Onko sinulla kysyttävää tai palautetta meille? <br />
+          Laita viestiä alla olevalla lomakkeella, niin olemme pian yhteydessä
+          sinuun! ♡
         </p>
-    </div> 
 
-    <p>
-        Onko sinulla kysyttävää tai palautetta meille? <br>
-        Laita viestiä alla olevalla lomakkeella, niin olemme pian yhteydessä sinuun! ♡
-    </p>
+        <form id="yhteydenottolomake-form" action="#">
+          <div class="kentät">
+            <br />
+            <label for="nimi" class="labelit" id="nimi-label">Nimesi:</label
+            ><br />
+            <input
+              id="nimikenttä"
+              type="text"
+              placeholder="Anna nimesi..."
+              required
+            /><br /><br />
+            <label for="sposti" class="labelit" id="sposti-label"
+              >Sähköpostiosoitteesi:</label
+            ><br />
+            <input
+              id="spostikenttä"
+              type="email"
+              placeholder="Anna sähköpostiosoitteesi..."
+              required
+            /><br />
+            <div id="viestikenttä">
+              <br />
+              <label for="yhtottoteksti" class="labelit" id="viesti-label"
+                >Viestisi:</label
+              ><br />
+              <textarea
+                id="viestiteksti"
+                name="viestiteksti"
+                rows="4"
+                cols="50"
+                placeholder="Kirjoita viestisi tähän..."
+              ></textarea>
+            </div>
+            <div class="submitnappi">
+              <button id="submit" type="submit">Lähetä</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
 
-    <form id="yhteydenottolomake-form" action="#">
-        <div class="kentät"><br>
-            <label for="nimi" class="labelit" id="nimi-label">Nimesi:</label><br>
-            <input id="nimikenttä" type="text" placeholder="Anna nimesi..." required><br><br>
-            <label for="sposti" class="labelit" id="sposti-label">Sähköpostiosoitteesi:</label><br>
-            <input id="spostikenttä" type="email" placeholder="Anna sähköpostiosoitteesi..." required><br>
-            <div id="viestikenttä"><br>
-            <label for="yhtottoteksti" class="labelit" id="viesti-label">Viestisi:</label><br>
-                <textarea id="viestiteksti" name="viestiteksti" rows="4" cols="50" placeholder="Kirjoita viestisi tähän..."></textarea>
-        </div>
-        <div class="submitnappi">
-            <button id="submit" type="submit">Lähetä</button>
-        </div>
-        </div>
-
-    </form>
-    </div>
-
-</main>
-
-
-</body>
-
-<footer>
-    
+  <footer>
     <div class="footerteksti">
-        <p>LittlePlanet Oy<br>
-            Planeettakatu 15<br>
-            00100 Helsinki<br>
-            Puhelinnumero: +358 40 123 456<br>
-            asiakaspalvelu@littleplanet.com</p>
+      <p>
+        LittlePlanet Oy<br />
+        Planeettakatu 15<br />
+        00100 Helsinki<br />
+        Puhelinnumero: +358 40 123 456<br />
+        asiakaspalvelu@littleplanet.com
+      </p>
     </div>
-    <div class="cteksti"><h5>© LittlePlanet Oy 2022 &nbsp;&nbsp;/&nbsp;&nbsp; Sivujen kuvat © <a href="https://unsplash.com/" alt="Sivuston kuvien copyright">Unsplash</a></h5></div>
+    <div class="cteksti">
+      <h5>
+        © LittlePlanet Oy 2022 &nbsp;&nbsp;/&nbsp;&nbsp; Sivujen kuvat ©
+        <a href="https://unsplash.com/" alt="Sivuston kuvien copyright"
+          >Unsplash</a
+        >
+      </h5>
+    </div>
 
     <navbar id="somenapit">
-        <ul class ="somenapit">
-            <li><a href="#" class="fa fa-facebook"></a></li>
-            <li><a href="#" class="fa fa-twitter"></a></li>
-            <li><a href="#" class="fa fa-instagram"></a></li>
-            <li><a href="#" class="fa fa-youtube"></a></li>
-        </ul>
+      <ul class="somenapit">
+        <li><a href="#" class="fa fa-facebook"></a></li>
+        <li><a href="#" class="fa fa-twitter"></a></li>
+        <li><a href="#" class="fa fa-instagram"></a></li>
+        <li><a href="#" class="fa fa-youtube"></a></li>
+      </ul>
     </navbar>
 
     <a href="#scroll-top">
-    <div class="scroll-text">top</div>
-    <div class="scroll-arrow"></div>
+      <div class="scroll-text">top</div>
+      <div class="scroll-arrow"></div>
     </a>
-</footer>
+  </footer>
 </html>
-

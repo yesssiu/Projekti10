@@ -1,111 +1,137 @@
 <!DOCTYPE html>
 <!-- someikoni importtaus -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
 
 <script src="burgermenu.js"></script>
 
 <html lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>LittlePlanet – Worry-free play with LittlePlanet</title>
-    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
-        @import url(tyyli.css);
+      @import url(tyyli.css);
     </style>
-</head>
+  </head>
 
-<body>
-
-<div>
-    <div id="burgermenu">
+  <body>
+    <div class="navdivit">
+      <div class="burgermenu-bg" id="burgermenu-bg"></div>
+      <nav class="navbar" id="navbar">
+        <ul>
+          <a href="index.html"
+            ><img id="minilogo" src="kuvat/Logo_pieni2.png"
+          /></a>
+          <li class="navlink"><a href="index_en.html">Front page</a></li>
+          <li class="navlink"><a href="info_en.html">About us</a></li>
+          <li class="navlink"><a href="selection_en.html">Selection</a></li>
+          <li class="navlink"><a href="contact">Contact us</a></li>
+          <a href="index.html"><img id="fin" src="kuvat/finland.png" /></a>
+        </ul>
+      </nav>
+      <div id="burgermenu">
         <div id="burgermenu-bar" onclick="menuOnClick()">
           <div id="bar1" class="bar"></div>
           <div id="bar2" class="bar"></div>
           <div id="bar3" class="bar"></div>
         </div>
+      </div>
     </div>
 
-<nav class="navbar" id="navbar">
-    <ul>
-        <a href="index.html"><img id="minilogo" src="kuvat/Logo_pieni2.png"></a>
-        <li class="navlink"><a href="index_en.html">Front page</a></li>
-        <li class="navlink"><a href="info_en.html">About us</a></li>
-        <li class="navlink"><a href="selection_en.html">Selection</a></li>
-        <li class="navlink"><a href="contact">Contact us</a></li>
-        <a href="index.html"><img id="fin" src="kuvat/finland.png"></a>
-    </ul>
-</nav>
-</div>
+    <header id="header">
+      <picture>
+        <source
+          media="(min-width"
+          400px)
+          src
+          set="Kuvat/iso_logo_438px.png 438W"
+          sizes="80vw"
+        />
+        <img id="headerimg" src="kuvat/Little.png" />
+      </picture>
+    </header>
 
-<div class="burgermenu-bg" id="burgermenu-bg"></div>
-</div>
+    <main>
+      <div class="teksti">
+        <h1>Worry-free play with the LittlePlanet</h1>
+        <p>
+          LittlePlanet is Finland's first toy brand whose products are made from
+          plastic waste collected from the sea. With us, you can find a
+          comprehensive selection of toys for children of different ages that
+          fit a minimalist and earthy interior style. You can also bring
+          discarded toys to us for recycling. For us, the three most important
+          values ​​are ethics, ecology, and aesthetics.
+        </p>
+      </div>
 
-<header id="header">
-    <picture>
-        <source srcset="kuvat/logo_250x250.png" media="(max-width: 750px)">
-        <source srcset="kuvat/Little.png">
-        <img id="headerimg" src="kuvat/Little.png">
-    </picture>
-</header>
+      <div class="image-container">
+        <div class="image-tile">
+          <picture>
+            <source srcset="kuvat/lapsi3_380.jpg" media="(max-width: 850px)" />
+            <source
+              srcset="kuvat/500px/lapsi3_500.jpg"
+              media="(max-width: 1050px)"
+            />
+            <source srcset="kuvat/lapsi3_740.jpg" />
+            <img
+              class="index-img"
+              alt="Mom and child playing in teepee"
+              src="kuvat/lapsi3_740.jpg"
+            />
+          </picture>
+        </div>
 
+        <div class="image-tile">
+          <picture>
+            <source srcset="kuvat/lapsi1_380.jpg" media="(max-width: 850px)" />
+            <source
+              srcset="kuvat/500px/lapsi1_500.jpg"
+              media="(max-width: 1050px)"
+            />
+            <source srcset="kuvat/lapsi1_740.jpg" />
+            <img
+              class="index-img"
+              alt="Kid is hugging bunny plush"
+              src="kuvat/lapsi1_740.jpg"
+            />
+          </picture>
+        </div>
+      </div>
+    </main>
+  </body>
 
-<main>
-<div class="teksti"><h1>Worry-free play with the LittlePlanet</h1>
-    <p>LittlePlanet is Finland's first toy brand whose products are made from plastic waste collected from the sea. With us, you can find a comprehensive selection of toys for children of different ages that fit a minimalist and earthy interior style. You can also bring discarded toys to us for recycling. For us, the three most important values ​​are ethics, ecology, and aesthetics. </p>
-</div>
-
-
-
-<div class="image-container">
-    <div class="image-tile">
-        <picture>
-        <source srcset="#" media="max-width: 750px">
-        <source srcset="#" media="max-width: 750px">
-        <img class="index-img" alt="Äiti ja lapsi leikkii tiipiissä" src="kuvat/valikoima/lapsi3.jpg">
-        </picture>
-    </div>
-
-    <div class="image-tile">
-        <img class="index-img" alt="Lapsi halaa pehmopupua" src="kuvat/valikoima/lapsi1.jpg">
-    </div>
-
-</div>
-</main>
-
-
-</body>
-
-
-
-<footer>
-    
+  <footer>
     <div class="footerteksti">
-        <p>LittlePlanet Oy<br>
-            Planeettakatu 15<br>
-            00100 Helsinki<br>
-            Phone: +358 40 123 456<br>
-            asiakaspalvelu@littleplanet.com</p>
-    </div> 
-    <div class="cteksti"><h5>© LittlePlanet Oy 2022 &nbsp;&nbsp;/&nbsp;&nbsp; Site images © <a href="https://unsplash.com/" alt="Sivuston kuvien copyright">Unsplash</a></h5></div>
+      <p>
+        LittlePlanet Oy<br />
+        Planeettakatu 15<br />
+        00100 Helsinki<br />
+        Phone: +358 40 123 456<br />
+        asiakaspalvelu@littleplanet.com
+      </p>
+    </div>
+    <div class="cteksti">
+      <h5>
+        © LittlePlanet Oy 2022 &nbsp;&nbsp;/&nbsp;&nbsp; Site images ©
+        <a href="https://unsplash.com/" alt="Sivuston kuvien copyright"
+          >Unsplash</a
+        >
+      </h5>
+    </div>
 
     <navbar id="somenapit">
-            <ul class ="somenapit">
-                <li><a href="#" class="fa fa-facebook"></a></li>
-                <li><a href="#" class="fa fa-twitter"></a></li>
-                <li><a href="#" class="fa fa-instagram"></a></li>
-                <li><a href="#" class="fa fa-youtube"></a></li>
-            </ul>
+      <ul class="somenapit">
+        <li><a href="#" class="fa fa-facebook"></a></li>
+        <li><a href="#" class="fa fa-twitter"></a></li>
+        <li><a href="#" class="fa fa-instagram"></a></li>
+        <li><a href="#" class="fa fa-youtube"></a></li>
+      </ul>
     </navbar>
-            
-    
-
-    
-</footer>
-
-
+  </footer>
 </html>

@@ -1,112 +1,129 @@
 <!DOCTYPE html>
 <!-- someikoni importtaus -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
 
 <script src="burgermenu.js"></script>
 
 <html lang="fi">
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>LittlePlanet – Huoletonta leikkiä LittlePlanetin kanssa</title>
-    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
-        @import url(tyyli.css);
+      @import url(tyyli.css);
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
+    <div class="navdivit">
+      <div class="burgermenu-bg" id="burgermenu-bg"></div>
+      <nav class="navbar" id="navbar">
+        <ul>
+          <a href="index.html"><img id="minilogo" src="kuvat/Logo_pieni2.png"
+          /></a>
+          <li class="navlink"><a href="index.html">Etusivu</a></li>
+          <li class="navlink"><a href="info.html">Tietoa Meistä</a></li>
+          <li class="navlink"><a href="valikoima.html">Valikoima</a></li>
+          <li class="navlink"><a href="yhteydet.html">Ota yhteyttä</a></li>
+          <a href="index_en.html"><img id="eng" src="kuvat/eng1.png" /></a>
+        </ul>
+      </nav>
 
-<div>
-    <div id="burgermenu">
+      <div id="burgermenu">
         <div id="burgermenu-bar" onclick="menuOnClick()">
           <div id="bar1" class="bar"></div>
           <div id="bar2" class="bar"></div>
           <div id="bar3" class="bar"></div>
         </div>
+      </div>
     </div>
 
-<nav class="navbar" id="navbar">
-    <ul>
-        <a href="index.html"><img id="minilogo" src="kuvat/Logo_pieni2.png"></a>
-        <li class="navlink"><a href="index.html">Etusivu</a></li>
-        <li class="navlink"><a href="info.html">Tietoa Meistä</a></li>
-        <li class="navlink"><a href="valikoima.html">Valikoima</a></li>
-        <li class="navlink"><a href="yhteydet.html">Ota yhteyttä</a></li>
-        <a href="index_en.html"><img id="eng" src="kuvat/eng1.png"></a>
-    </ul>
-</nav>
-</div>
+    <header id="header">
+      <picture>
+        <source media="(min-width" 400px)
+          src set="Kuvat/iso_logo_438px.png 438W"
+          sizes="80vw">
+        <img id="headerimg" src="kuvat/Little.png" />
+      </picture>
+    </header>
 
-<div class="burgermenu-bg" id="burgermenu-bg"></div>
-</div>
+    <main>
+      <div class="teksti">
+        <h1>Worry-free play with the LittlePlanet</h1>
+        <p>
+          LittlePlanet on Suomen ensimmäinen lelubrändi, jonka tuotteet ovat
+          valmistettu merestä kerätystä muovijätteestä. Meiltä löydät kattavan
+          valikoiman eri ikäisten lasten leluja, jotka sopivat minimalistiseen
+          ja maanläheiseen sisustustyyliin. Meille voit myös tuoda leikeistä
+          poistuneet lelut uudelleenkierrätykseen. Meille kolme tärkeintä arvoa
+          on eettisyys, ekologisuus sekä esteettisyys.
+        </p>
+      </div>
 
-<header id="header">
-    <picture>
-        <source media=(min-width 400px) src set="Kuvat/iso_logo_438px.png 438W" sizes="80vw">
-    <img id="headerimg" src="kuvat/Little.png">
-</picture>
-</header>
+      <div class="image-container">
+        <div class="image-tile1">
+          <picture>
+            <source
+              srcset="kuvat/500px/lapsi3_500.jpg"
+              media="(max-width: 480px)"
+            />
+            <source srcset="kuvat/1200px/lapsi3_1200.jpg" />
+            <img
+              class="index-img"
+              alt="Äiti ja lapsi leikkii tiipiissä"
+              src="kuvat/1200px/lapsi3_1200.jpg"
+            />
+          </picture>
+        </div>
 
+        <div class="image-tile2">
+          <picture>
+            <source
+              srcset="kuvat/500px/lapsi1_500.jpg"
+              media="(max-width: 480px)"
+            />
+            <source srcset="kuvat/1200px/lapsi1_1200.jpg" />
+            <img
+              class="index-img"
+              alt="Lapsi halaa pehmopupua"
+              src="kuvat/1200px/lapsi1_1200.jpg"
+            />
+          </picture>
+        </div>
+      </div>
+    </main>
+  </body>
 
-<main>
-<div class="teksti"><h1>Worry-free play with the LittlePlanet</h1>
-    <p>LittlePlanet on Suomen ensimmäinen lelubrändi, jonka tuotteet ovat valmistettu merestä kerätystä muovijätteestä. Meiltä löydät kattavan valikoiman eri ikäisten lasten leluja, jotka sopivat minimalistiseen ja maanläheiseen sisustustyyliin. Meille voit myös tuoda leikeistä poistuneet lelut uudelleenkierrätykseen. Meille kolme tärkeintä arvoa on eettisyys, ekologisuus sekä esteettisyys.</p>
-</div>
-
-
-
-<div class="image-container">
-    <div class="image-tile1">
-        <picture>
-            <source srcset="kuvat/lapsi3_380.jpg" media="(max-width: 380px)">
-            <source srcset="kuvat/500px/lapsi3_500.jpg" media="(max-width: 480px)">
-            <source srcset="kuvat/lapsi3_740.jpg">
-            <img class="index-img" alt="Äiti ja lapsi leikkii tiipiissä" src="kuvat/lapsi3_740.jpg">
-        </picture>
-    </div>
-
-    <div class="image-tile2">
-        <picture>
-            <source srcset="kuvat/lapsi1_380.jpg" media="(max-width: 850px)">
-            <source srcset="kuvat/500px/lapsi1_500.jpg" media="(max-width: 1050px)">
-            <source srcset="kuvat/lapsi1_740.jpg">
-            <img class="index-img" alt="Lapsi halaa pehmopupua" src="kuvat/lapsi1_740.jpg">
-        </picture>
-    </div>
-
-</div>
-</main>
-
-
-</body>
-
-
-
-<footer>
-    
+  <footer>
     <div class="footerteksti">
-        <p>LittlePlanet Oy<br>
-            Planeettakatu 15<br>
-            00100 Helsinki<br>
-            Puhelinnumero: +358 40 123 456<br>
-            asiakaspalvelu@littleplanet.com</p>
-    </div> 
-    <div class="cteksti"><h5>© LittlePlanet Oy 2022 &nbsp;&nbsp;/&nbsp;&nbsp; Sivujen kuvat © <a href="https://unsplash.com/" alt="Sivuston kuvien copyright">Unsplash</a></h5></div>
+      <p>
+        LittlePlanet Oy<br />
+        Planeettakatu 15<br />
+        00100 Helsinki<br />
+        Puhelinnumero: +358 40 123 456<br />
+        asiakaspalvelu@littleplanet.com
+      </p>
+    </div>
+    <div class="cteksti">
+      <h5>
+        © LittlePlanet Oy 2022 &nbsp;&nbsp;/&nbsp;&nbsp; Sivujen kuvat ©
+        <a href="https://unsplash.com/" alt="Sivuston kuvien copyright"
+          >Unsplash</a
+        >
+      </h5>
+    </div>
 
     <navbar id="somenapit">
-            <ul class ="somenapit">
-                <li><a href="#" class="fa fa-facebook"></a></li>
-                <li><a href="#" class="fa fa-twitter"></a></li>
-                <li><a href="#" class="fa fa-instagram"></a></li>
-                <li><a href="#" class="fa fa-youtube"></a></li>
-            </ul>
+      <ul class="somenapit">
+        <li><a href="#" class="fa fa-facebook"></a></li>
+        <li><a href="#" class="fa fa-twitter"></a></li>
+        <li><a href="#" class="fa fa-instagram"></a></li>
+        <li><a href="#" class="fa fa-youtube"></a></li>
+      </ul>
     </navbar>
-            
-    
-
-    
-</footer>
-
-
+  </footer>
 </html>
