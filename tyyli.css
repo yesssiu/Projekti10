@@ -670,7 +670,10 @@ footer {
 
 
 @media screen and (max-widht: 500px) {
-    
+    .infokuva {
+        width: 80%;
+        box-shadow: 4px 4px 12px #626262;
+    }
 }
  
   
