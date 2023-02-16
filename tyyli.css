@@ -39,11 +39,6 @@ body {
     font-size: 1em;
 }
 
-/*Floating Back-To-Top Button*/
-/*#myBtn {
-   
-}*/
-
 .navbar ul {
     margin: 0;
     list-style-type: none;
@@ -227,10 +222,10 @@ main {
 .main-info {
     background-color: rgb(255, 255, 255);
     margin-top: 1em;
-    padding-right: 6em;
-    padding-left: 6em;
+    padding-right: 3em;
+    padding-left: 3em;
     padding-top: 7em;
-    padding-bottom: 7em;
+    padding-bottom: 5em;
     display: flex;
     text-align: justify;
 }
@@ -250,14 +245,13 @@ main {
 .kuva-container {
     background-color: #fff;
     float: left;
-    margin-right: 3em;
+    margin-right: 2em;
     margin-left: 1em;
 }
 .image-tile-i {
     background-color: #fff;
 }
 .infokuva {
-    width: 100%;
     box-shadow: 4px 4px 12px #626262;
 }
 
@@ -401,6 +395,29 @@ footer {
         max-width: 400px;
         box-shadow: 2px 2px 12px #626262;
     }
+
+/* Info-sivu */
+    .main-info {
+        padding-left: 1.3em;
+        padding-right: 1.3em;
+    }
+    .teksti-info {
+        padding-right: 1em;
+        padding-left: .5em;
+    }
+    .teksti-info h1 {
+        font-size: 1.1em;
+        line-height: 1.4em;
+    }
+    .teksti-info p {
+        font-size: 0.8em;
+        line-height: 1.2em;
+    }
+    .kuva-container {
+        margin-left: 0;
+    }
+    
+
 }
 
 @media screen and (max-width: 850px) {
@@ -409,7 +426,6 @@ footer {
         max-width: 250px;
         box-shadow: 2px 2px 12px #626262;
     }
-
 
     /* yhteystietojen profiilit */
     #personal-info {
@@ -453,6 +469,27 @@ footer {
         font-size: .8em;
         padding-left: 1em;
         letter-spacing: .1em;
+    }
+
+
+    /* Info-sivu */
+    .main-info {
+        padding-left: 1.2em;
+        padding-right: 1.2em;
+    }
+    .teksti-info {
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+    .teksti-info h1 {
+        font-size: 1.1em;
+    }
+    .teksti-info p {
+        font-size: 0.7em;
+        line-height: 1.2em;
+    }
+    .kuva-container {
+        margin-left: .1em;
     }
 }
 
@@ -640,7 +677,10 @@ footer {
 
 
 @media screen and (max-widht: 500px) {
-    
+    .infokuva {
+        width: 80%;
+        box-shadow: 4px 4px 12px #626262;
+    }
 }
  
   
