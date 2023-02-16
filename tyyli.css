@@ -2,7 +2,7 @@
 /* -- HEADER -- */
 header {
     background-color: #f4EBE5;
-    padding: 1.8em;
+    padding-top: 3.5em;
 
 }
 #headerimg {
@@ -19,28 +19,38 @@ header {
 body {
     font-family: sans-serif;
     background-color: #fff;
+    margin: 0;
 }
 
 
 /* NAVIGAATIO */
+
+.navdivit {
+    height: 50px;
+    position: fixed;
+    width: 100%;
+}
+
 .navbar {
-    position: sticky;
-    position: -webkit-sticky;
+    /*position: -webkit-sticky;*/
+    margin: 0;
     background-color: rgb(255, 255, 255);
-    top: 0;
     font-family: Syncopate;
     font-size: 1em;
 }
 
 .navbar ul {
-    margin-top: 0em;
-    padding: 1.5em;
+    margin: 0;
     list-style-type: none;
     display: flex; 
     flex-wrap: wrap;
-    border: 1px;
-    padding: 1em;
+    border: 2px;
+    border-color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
 }
+
 .navbar ul li {
     font-size: 1em;
     text-transform: uppercase;
@@ -50,9 +60,8 @@ body {
 .navlink {
     margin-right: 3em;
     float: right;
-    padding-top: .9em;
-    padding-bottom: .5em;
 }
+
 .navlink a {
     color: black;
     text-decoration: none;
@@ -60,7 +69,6 @@ body {
 .navlink a:hover {
     color:rgb(123, 33, 33);
 }
-
 
 #minilogo {
     width: 40px;
@@ -571,7 +579,6 @@ footer {
         display: none;
     }
 
-
       .navbar {
         background-color: none;
         transition: 0.3s ease;
@@ -584,7 +591,7 @@ footer {
         display: block;
         float: left;
         position: absolute;
-        margin-top: -1em;
+        margin-top: 4em;
         width: 14em;
       }
 
@@ -615,15 +622,15 @@ footer {
       .burgermenu-bg, #burgermenu {
         top: 0;
         left: 0;
-        position: absolute;
+        position: fixed;
       }
 
       .burgermenu-bg {
-        z-index: 1;
+        z-index: 0;
         width: 0;
         height: 0;
         margin: 40px 0 20px 20px;
-        background: radial-gradient(circle, #f8d3c5bc, #f8d3c5c2);
+        background-color: #f8d3c5;
         border-radius: 50%;
         transition: 0.3s ease;
       }
