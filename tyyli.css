@@ -10,7 +10,7 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 0;
+    padding-top: 1em;
     padding-bottom: 2em;
     width: 80%;
 }
@@ -350,7 +350,7 @@ footer {
 }
 .navbar ul {
     margin-top: 0em;
-    padding: 1.5em;
+    padding: 1em;
     /*display: block;*/
     border: 1px;
     padding: 1em;
@@ -424,7 +424,7 @@ footer {
 
 @media screen and (max-width: 850px) {
     #headerimg {
-        padding-top: -1em;
+        padding-top: 1em;
         padding-bottom: 2em;
     }
 
@@ -502,7 +502,7 @@ footer {
 
 @media screen and (max-width: 750px) {
     #headerimg {
-        padding-bottom: 0em;
+        padding-top: 2em;
     } 
 
 /* yhteystiedot */
@@ -525,7 +525,7 @@ footer {
 
 /* header */
     header {
-        padding: 1.8em;
+        padding: 1em;
     
     }
     #headerimg {
@@ -540,8 +540,8 @@ footer {
         margin-top: 1em;
         padding-right: 2em;
         padding-left: 2em;
-        padding-top: 2em;
-        padding-bottom: 2em;
+        padding-top: 1em;
+        padding-bottom: 1em;
         text-align: center;
     }
     .teksti h1 {
@@ -694,7 +694,7 @@ footer {
 
 
     #headerimg {
-        padding-top: 0;
+        padding-top: 1em;
         padding-bottom: 0;
         
     }
