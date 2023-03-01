@@ -731,7 +731,7 @@ footer {
 }
 
 
-@media screen and (max-widht: 500px) {
+@media screen and (max-width: 500px) {
     .main-info {
         display: grid;
         grid-template-columns: auto;
