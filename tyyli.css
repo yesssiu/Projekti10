@@ -255,8 +255,11 @@ main {
     padding-left: 3em;
     padding-top: 7em;
     padding-bottom: 5em;
-    display: flex;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
     text-align: justify;
+
 }
 .teksti-info {
     font-size: 1.2em;
@@ -710,6 +713,12 @@ footer {
 
 
 @media screen and (max-widht: 500px) {
+    .main-info {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+
     .infokuva {
         width: 80%;
         box-shadow: 4px 4px 12px #626262;
