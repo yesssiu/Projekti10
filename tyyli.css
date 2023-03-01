@@ -15,14 +15,14 @@ header {
     width: 80%;
 }
 
-/* YLÖSMENONAPPI*/
+/* YLÖSMENONAPPI */
 .scroll-arrow {
-    background: #bed3d8; 
-    width: 36px;
-    height: 36px;
+    background: #5a8a96; 
+    width: 40px;
+    height: 40px;
     position: fixed;
-    bottom: 26px;
-    right: 20px;
+    bottom: 30px;
+    right: 24px;
     border-radius: 50% 0 50% 50%;
     transform: rotate(-45deg);
     z-index: 9;
@@ -30,11 +30,11 @@ header {
 .scroll-text {
     color: #fff;
     position: fixed;
-    bottom: 33px;
-    right: 24px;
+    bottom: 38px;
+    right: 30px;
     font-size: 18px;
     z-index: 10;
-    text-shadow: 2px 2px 10px;
+    text-shadow: 1px 1px 15px;
     font-family: sans-serif;
     font-weight: bold;
 }
@@ -310,49 +310,47 @@ main {
 
 /* -- FOOTER -- */
 footer {
-    padding: 1em;
     padding-bottom: 6em;
 }
 
 .footerteksti {
     background-color: rgb(255, 255, 255);
     margin: 2em;
-    margin-left: 3em;
-    margin-right: 3em;
     display: center;
     flex-wrap: wrap;
     text-align: center;
     font-family: Montserrat, sans-serif;
 } 
-.cteksti {
-    margin-left: 4em;
-    font-family: Montserrat-medium, sans-serif;
-    letter-spacing: .2em;
-}
-.cteksti a {
-    color:rgb(15, 15, 15);
+.footerteksti a {
     text-decoration: none;
+    color: #202020;
 }
 
 .somenapit {
     display: flex;
+    list-style: none;
     justify-content: center;
     list-style-type: none;
+    margin-left: -2em;
+}
+.somenapit ul {
+    
+    padding-left: 0;
+}
+.somenapit li {
+    display: inline;
 }
 
-.somenapit ul {
-    padding: 1em;
-    margin-right: 1em;
-}
+
 
 /* Someikonit */
 .fa {
     color: black;
     font-size: 30px;
-    width: 2rem;
+    width: 100%;
     text-align: center;
     text-decoration: none;
-    margin-right: 2em;
+    margin-right: 1em;
 } 
 /* Hover-efekti*/
   .fa:hover {
