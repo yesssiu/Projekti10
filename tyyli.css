@@ -298,6 +298,7 @@ footer {
     margin-right: 3em;
     display: flex;
     flex-wrap: wrap;
+    font-family: Montserrat, sans-serif;
 } 
 .cteksti {
     margin-left: 4em;
