@@ -746,10 +746,13 @@ footer {
 @media all and (max-width: 500px) {
     .main-info {
         display: grid;
+        max-width: 100%;
         grid-template-columns: auto;
         grid-template-rows: auto auto;
-        justify-content: space-around;
-        align-content: space-between;
+        justify-content: space-evenly;
+        align-content: center;
+        margin-right: 0em;
+        margin-left: 0em;
     }
 
     #index-kuva {
@@ -761,15 +764,12 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center; 
+        padding-right: 0;
+        padding-bottom: 1em;
     }
 
     .infokuva {
-        align-items: center;
-        
-    }
-
-    .infokuva {
-        width: 80%;
+        width: 100%;
         box-shadow: 4px 4px 12px #626262;
     }
 
