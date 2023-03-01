@@ -512,7 +512,7 @@ footer {
         margin-top: .5em;
     }
     #personal-info img {
-        max-width: 120px;
+        max-width: 110px;
     }
 
 
@@ -733,6 +733,13 @@ footer {
         margin-left: -11.5em;
         margin-top: 2em;
     }
+
+
+    /* testi */
+    .image-container-v {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+    }
 }
 
 
@@ -771,6 +778,11 @@ footer {
         padding-top: 1em;
         padding-bottom: 0;
         
+    }
+
+    .image-container {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto; 
     }
 
     .image-container-v {
