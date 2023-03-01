@@ -460,10 +460,7 @@ footer {
     
 
 /* Info-sivu */
-    .main-info {
-        padding-left: 1.3em;
-        padding-right: 1.3em;
-    }
+    
     .teksti-info {
         padding-right: 1em;
         padding-left: .5em;
@@ -537,10 +534,7 @@ footer {
 
 
     /* Info-sivu */
-    .main-info {
-        padding-left: 1.2em;
-        padding-right: 1.2em;
-    }
+    
     .teksti-info {
         padding-right: 1em;
         padding-left: 1em;
