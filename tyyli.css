@@ -263,6 +263,10 @@ main {
     font-size: 1.9em;
 }
 
+#viestikenttä {
+    max-width: 100%;
+}
+
 
 /* INFO-SIVU */
 .main-info {
