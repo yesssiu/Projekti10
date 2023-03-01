@@ -365,22 +365,27 @@ footer {
 @font-face {
     font-family: Syncopate;
     src: url(fontit/Syncopate/Syncopate-Regular.ttf);
+    font-display: swap;
 }
 @font-face {
     font-family: Syncopate-Bold;
-    src: url(fontit/Syncopate/Syncopate-Bold.ttf)
+    src: url(fontit/Syncopate/Syncopate-Bold.ttf);
+    font-display: swap;
 }
 @font-face {
     font-family: Ruluko;
     src: url(fontit/Ruluko/Ruluko-Regular.ttf);
+    font-display: swap;
 }
 @font-face {
     font-family: Montserrat;
     src: url(fontit/Montserrat/Montserrat-Light.ttf);
+    font-display: swap;
 }
 @font-face {
     font-family: Montserrat-medium;
     src: url(fontit/Montserrat/Montserrat-Medium.ttf);
+    font-display: swap;
 }
 
 
@@ -598,7 +603,6 @@ footer {
 
     
 
-    
     
 
  /* BURGERMENU */
