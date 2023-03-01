@@ -96,7 +96,7 @@ body {
     text-decoration: none;
 }
 .navlink a:hover {
-    color:rgb(123, 33, 33);
+    color:rgb(23, 108, 113);
 }
 
 #minilogo {
@@ -231,6 +231,10 @@ main {
 .yhteystiedot h1 {
     font-family: Montserrat-medium, sans-serif;
 }
+.yhteystiedot a {
+    text-decoration: none;
+    color:rgb(23, 108, 113);
+}
 
 .profiilikuva {
     border-radius: 100%;
@@ -330,7 +334,7 @@ footer {
 } 
 .footerteksti a {
     text-decoration: none;
-    color: #202020;
+    color: rgb(23, 108, 113);
 }
 
 .somenapit {
