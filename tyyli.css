@@ -579,6 +579,25 @@ footer {
         font-size: 0.8em;
         line-height: 1.4em;
     }
+
+    .main-info {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        justify-content: space-around;
+        align-content: space-between;
+    }
+
+    .kuva-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .infokuva {
+        align-items: center;
+        
+    }
     
 
  /* BURGERMENU */
