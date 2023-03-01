@@ -196,7 +196,7 @@ main {
     margin-top: 1em;
     background-color: #fff;
     display: grid;
-    width: 100%;
+    max-width: 100%;
     justify-content: space-evenly;
     align-content: center;
     grid-template-columns: auto auto auto auto;
@@ -261,6 +261,10 @@ main {
 #yhteydenottolomake h2 {
     font-family: Montserrat-medium, sans-serif;
     font-size: 1.9em;
+}
+
+#viestikenttä {
+    max-width: 100%;
 }
 
 
