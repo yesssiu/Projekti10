@@ -64,7 +64,7 @@ body {
     /*position: -webkit-sticky;*/
     margin: 0;
     background-color: rgb(255, 255, 255);
-    font-family: Syncopate;
+    font-family: Syncopate, sans-serif;
     font-size: 1em;
 }
 
@@ -133,11 +133,11 @@ main {
     padding-top: 7em;
     padding-bottom: 7em;
     text-align: justify;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
 }
 .teksti h1 {
     font-size: 2em;
-    font-family: Montserrat-medium;
+    font-family: Montserrat-medium, sans-serif;
 }
 .teksti p {
     font-size: 1.3em;
@@ -184,10 +184,10 @@ main {
     align-content: center;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
 }
 #personal-info h3 {
-    font-family: Montserrat-medium;
+    font-family: Montserrat-medium, sans-serif;
 }
 #personal-info p {
     font-size: 1em;
@@ -202,10 +202,10 @@ main {
     padding-bottom: 2em;
     margin-left: 1em;
     margin-right: 1em;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
 }
 .yhteystiedot h1 {
-    font-family: Montserrat-medium;
+    font-family: Montserrat-medium, sans-serif;
 }
 
 .profiilikuva {
@@ -242,7 +242,7 @@ main {
     background-color: #f8d3c5;
 }
 #yhteydenottolomake h2 {
-    font-family: Montserrat-medium;
+    font-family: Montserrat-medium, sans-serif;
     font-size: 1.9em;
 }
 
@@ -264,12 +264,12 @@ main {
     justify-content: flex;
     padding-left: 2em;
     padding-right: 2em;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
 }
 .teksti-info h1 {
     font-size: 1.4em;
     line-height: 3em;
-    font-family: Montserrat-medium;
+    font-family: Montserrat-medium, sans-serif;
 }
 .kuva-container {
     background-color: #fff;
@@ -289,7 +289,6 @@ main {
 footer {
     padding: 2em;
     padding-bottom: 6em;
-    font-family: Montserrat;
 }
 
 .footerteksti {
@@ -302,7 +301,7 @@ footer {
 } 
 .cteksti {
     margin-left: 4em;
-    font-family: Montserrat-medium;
+    font-family: Montserrat-medium, sans-serif;
     letter-spacing: .2em;
 }
 .cteksti a {
@@ -471,7 +470,6 @@ footer {
         align-content: center;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
-        font-family: Montserrat;
     }
     .charlotte {
         margin-top: 1em;
@@ -540,10 +538,6 @@ footer {
         padding-bottom: 1em;
         margin-left: 1em;
         margin-right: 1em;
-        font-family: Montserrat;
-    }
-    .yhteystiedot h1 {
-        font-family: Montserrat-medium;
     }
 
 /* kuvat */
