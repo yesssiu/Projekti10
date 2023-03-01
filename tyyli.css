@@ -733,6 +733,13 @@ footer {
         margin-left: -11.5em;
         margin-top: 2em;
     }
+
+
+    /* testi */
+    .image-container-v {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+    }
 }
 
 
