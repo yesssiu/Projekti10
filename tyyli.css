@@ -290,7 +290,7 @@ main {
 
 /* -- FOOTER -- */
 footer {
-    padding: 2em;
+    padding: 1em;
     padding-bottom: 6em;
 }
 
@@ -299,8 +299,9 @@ footer {
     margin: 2em;
     margin-left: 3em;
     margin-right: 3em;
-    display: flex;
+    display: center;
     flex-wrap: wrap;
+    text-align: center;
     font-family: Montserrat, sans-serif;
 } 
 .cteksti {
@@ -315,14 +316,13 @@ footer {
 
 .somenapit {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     list-style-type: none;
-    margin-top: -7em;
 }
 
 .somenapit ul {
     margin: 2em;
-    padding: 3em;
+    padding: 1em;
     margin-right: 2em;
 }
 
@@ -494,9 +494,6 @@ footer {
 
     /* Somenapit */
     .somenapit {
-        display: flex;
-        justify-content: left;
-        list-style-type: none;
         margin-top: 3em;
         padding-left: 3.3em;
     }
