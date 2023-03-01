@@ -295,7 +295,8 @@ footer {
 .footerteksti {
     background-color: rgb(255, 255, 255);
     margin: 2em;
-    margin-left: 4em;
+    margin-left: 3em;
+    margin-right: 3em;
     display: flex;
     flex-wrap: wrap;
 } 
