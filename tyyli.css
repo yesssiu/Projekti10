@@ -297,7 +297,6 @@ main {
 }
 .kuva-container {
     background-color: #fff;
-    float: left;
     margin-right: 2em;
     margin-left: 1em;
 }
@@ -342,9 +341,8 @@ footer {
 }
 
 .somenapit ul {
-    margin: 2em;
     padding: 1em;
-    margin-right: 2em;
+    margin-right: 1em;
 }
 
 /* Someikonit */
